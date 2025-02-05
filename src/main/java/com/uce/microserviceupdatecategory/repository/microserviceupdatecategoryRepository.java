@@ -6,6 +6,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.uce.microserviceupdatecategory.model.Category;
 
-public interface microservicecreatecategoryRepository extends JpaRepository<Category, UUID> {
+public interface microserviceupdatecategoryRepository extends JpaRepository<Category, UUID> {
 }
 
