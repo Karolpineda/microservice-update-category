@@ -15,7 +15,7 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Microservice Create Category API")
+                        .title("Microservice Create Category API.")
                         .version("v1")
                         .description("This is the API documentation for the Create Category microservice"));
     }
