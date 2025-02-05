@@ -25,7 +25,7 @@ public class microserviceupdateController {
     // Endpoint Health para verificar si el microservicio está activo
     @GetMapping("/health")
     public ResponseEntity<String> healthCheck() {
-        return ResponseEntity.ok("Microservicio Update Category está en funcionamiento");
+        return ResponseEntity.ok("Microservicio Update Category está en funcionamient0");
     }
 
     // Actualizar una categoría existente
