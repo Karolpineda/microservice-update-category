@@ -54,6 +54,6 @@ The application will run at: http://localhost:8086
 
 ## API Usage
 ### Create a Product
-Endpoint: POST /api/categories/{id}
+Endpoint: PUT /api/categories/{id}
 
 This endpoint allows you to update a category in the database using the provided data.
